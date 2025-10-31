@@ -1,0 +1,15 @@
+# =====================================
+# E-COMMERCE INSIGHTS DASHBOARD
+# Project: Data Analysis with Python
+# =====================================
+
+# Core Libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Web App Framework
+streamlit==1.37.0
