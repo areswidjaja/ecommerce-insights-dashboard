@@ -6,6 +6,9 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
+import warnings
+warnings.filterwarnings("ignore")
+
 
 # ==========================================================
 #  SETUP & THEME CONFIGURATION
@@ -283,5 +286,6 @@ elif menu == "5️⃣ Tren Penjualan Bulanan":
     plt.xticks(rotation=45, ha='right')
     sns.despine()
     st.pyplot(fig)
+
 
     st.success("Puncak penjualan terjadi pada November 2017 (Black Friday). Setelahnya, performa stabil dan terus tumbuh, menandakan fondasi bisnis yang kuat.")
